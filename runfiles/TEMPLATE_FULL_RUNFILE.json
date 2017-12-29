@@ -21,7 +21,7 @@
 	{
 		"Type": "File",
 		"Name": "MyRecords",	// Optional: specifies a name for the record set. Used in the header for ARFF and AVRO formats.
-		"DateTimeLoopFieldName": "EventDateTime", // Optional: a field name in the output to which the looping date/time should be written, i.e. if you want the loop date time inside the file as well as in the path. Example: simulating telemetry or event logs.
+		"RecordDateTimeFieldName": "EventDateTime", // Optional: a field name in the output to which the looping date/time should be written, i.e. if you want the loop date time inside the file as well as in the path. Example: simulating telemetry or event logs.
 		"OutputConfig":
 		{
 			"FileType": "Delimited", // Output file(s) type. One of: Arff, Avro, Delimited, FixedWidth, Json*
